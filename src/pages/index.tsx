@@ -191,7 +191,7 @@ const Home: NextPage = () => {
                   width={48}
                   height={20}
                   className="rounded-lg"
-                  src="/images/4.jpg"
+                  src="https://zqiwurzqmvaomggklanq.supabase.co/storage/v1/object/public/images/tqc/4.JPG?t=2022-08-12T11%3A17%3A24.256Z"
                   alt="user-profile"
                   layout="responsive"
                 />
@@ -208,7 +208,7 @@ const Home: NextPage = () => {
                 <div className="pt-4">
                   <Image
                     layout="responsive"
-                    src="/images/5.jpg"
+                    src="https://zqiwurzqmvaomggklanq.supabase.co/storage/v1/object/public/images/tqc/5.JPG"
                     objectFit="cover"
                     width="300"
                     height="300"
@@ -223,7 +223,7 @@ const Home: NextPage = () => {
                 <div className="pt-4">
                   <Image
                     layout="responsive"
-                    src="/images/5_1.jpg"
+                    src="https://zqiwurzqmvaomggklanq.supabase.co/storage/v1/object/public/images/tqc/5_1.JPG"
                     objectFit="cover"
                     width="400"
                     height="200"
@@ -239,7 +239,7 @@ const Home: NextPage = () => {
                 <div className="pt-4">
                   <Image
                     layout="responsive"
-                    src="/images/5_2.jpg"
+                    src="https://zqiwurzqmvaomggklanq.supabase.co/storage/v1/object/public/images/tqc/5_2.JPG?t=2022-08-12T11%3A19%3A55.392Z"
                     objectFit="cover"
                     width="600"
                     height="200"
@@ -299,7 +299,7 @@ const Home: NextPage = () => {
                 <div className="pt-4">
                   <Image
                     layout="responsive"
-                    src="/images/6.jpg"
+                    src="https://zqiwurzqmvaomggklanq.supabase.co/storage/v1/object/public/images/tqc/6.JPG?t=2022-08-12T11%3A20%3A25.285Z"
                     objectFit="cover"
                     width="300"
                     height="180"
@@ -379,7 +379,7 @@ const Home: NextPage = () => {
                     width={48}
                     height={48}
                     className="rounded-lg"
-                    src="/images/7.jpg"
+                    src="https://zqiwurzqmvaomggklanq.supabase.co/storage/v1/object/public/images/tqc/7.JPG?t=2022-08-12T11%3A20%3A37.242Z"
                     alt="user-profile"
                     layout="responsive"
                   />
@@ -395,7 +395,7 @@ const Home: NextPage = () => {
                     width={48}
                     height={20}
                     className="rounded-lg"
-                    src="/images/7_1.jpg"
+                    src="https://zqiwurzqmvaomggklanq.supabase.co/storage/v1/object/public/images/tqc/7_1.JPG?t=2022-08-12T11%3A20%3A45.031Z"
                     alt="user-profile"
                     layout="responsive"
                   />
