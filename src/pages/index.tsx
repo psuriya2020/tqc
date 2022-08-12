@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Link from "next/Link";
 import Image from "next/image";
 import { trpc } from "../utils/trpc";
 import DatePicker from "react-datepicker";
@@ -9,12 +10,7 @@ import th from "date-fns/locale/th";
 registerLocale("th", th);
 import Input from "../components/ui/Input";
 import { useEffect, useState } from "react";
-
-type TechnologyCardProps = {
-  name: string;
-  description: string;
-  documentation: string;
-};
+import { BsGithub } from "react-icons/bs";
 
 type Stokc = {
   itemgroup: string;
@@ -23,8 +19,8 @@ type Stokc = {
 const Home: NextPage = () => {
   const invStock = trpc.useQuery(["example.groupInvStock"]);
   const [value, onChange] = useState([new Date(), new Date()]);
-  const [startDate, setStartDate] = useState(new Date());
-  const [endDate, setEndDate] = useState(new Date());
+  const [startDate, setStartDate] = useState(new Date("08/12/2022 09:36:12"));
+  const [endDate, setEndDate] = useState(new Date("08/12/2022 10:46:30"));
   const [timeDiff, setTimeDiff] = useState(0);
   const [score, setScore] = useState(80);
   const [grade, setGrade] = useState("A");
@@ -422,6 +418,14 @@ const Home: NextPage = () => {
               </div>
             </div>
           </section>
+          <div className="flex items-center justify-center py-4 text-[24px] space-x-2">
+            <Link href="https://github.com/psuriya2020/tqc">
+              <a className="flex items-center justify-center pb-4 space-x-3">
+                <div>Source code</div>
+                <BsGithub className="text-[20px]"></BsGithub>
+              </a>
+            </Link>
+          </div>
         </div>
       </main>
     </>

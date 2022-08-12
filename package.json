@@ -27,6 +27,7 @@
     "react-datetime-picker": "^3.5.0",
     "react-datetime-range-picker": "^3.0.0",
     "react-dom": "18.2.0",
+    "react-icons": "^4.4.0",
     "react-query": "3.39.2",
     "react-syntax-highlighter": "^15.5.0",
     "superjson": "^1.9.1",
